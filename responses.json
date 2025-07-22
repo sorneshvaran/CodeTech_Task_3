@@ -1,0 +1,534 @@
+[
+  {
+    "pattern": "hello",
+    "response": "Hi there! How can I help you?"
+  },
+  {
+    "pattern": "hi",
+    "response": "Hello! What can I do for you today?"
+  },
+  {
+    "pattern": "what is your name",
+    "response": "I am your friendly chatbot."
+  },
+  {
+    "pattern": "how are you",
+    "response": "I'm doing great, thanks for asking! How about you?"
+  },
+  {
+    "pattern": "tell me a joke",
+    "response": "Why did the computer show up at work late? It had a hard drive!"
+  },
+  {
+    "pattern": "thank you",
+    "response": "You're welcome! Let me know if you need anything else."
+  },
+  {
+    "pattern": "thanks",
+    "response": "No problem! Happy to help."
+  },
+  {
+    "pattern": "what is the weather",
+    "response": "I'm not connected to the internet, so I can't provide live weather updates."
+  },
+  {
+    "pattern": "who created you",
+    "response": "I was created by a developer using Python and NLP techniques."
+  },
+  {
+    "pattern": "what can you do",
+    "response": "I can assist you with various topics, answer questions, and provide information."
+  },
+  {
+    "pattern": "bye",
+    "response": "Goodbye! Have a nice day!"
+  },
+  {
+    "pattern": "exit",
+    "response": "See you next time!"
+  },
+  {
+    "pattern": "quit",
+    "response": "Take care! Chat soon."
+  },
+  {
+    "pattern": "what is a variable in python",
+    "response": "A variable in Python is a name that refers to a value. You create one by assigning a value to a name, like: x = 5"
+  },
+  {
+    "pattern": "what is a variable in c++",
+    "response": "A variable in C++ is a storage location with a type and a name. Example: int age = 20;"
+  },
+  {
+    "pattern": "what is a variable in java",
+    "response": "A variable in Java is a container for data values, declared with a type. Example: int number = 10;"
+  },
+  {
+    "pattern": "what is a function in python",
+    "response": "A function in Python is a block of code that performs a task. You define it with 'def'. Example: def greet(): print('Hello!')"
+  },
+  {
+    "pattern": "what is a function in c++",
+    "response": "A function in C++ is a block of code that performs a specific task. Example: int add(int a, int b) { return a + b; }"
+  },
+  {
+    "pattern": "what is a function in java",
+    "response": "A function in Java is called a method and is defined inside a class. Example: int sum(int a, int b) { return a + b; }"
+  },
+  {
+    "pattern": "what is a class in python",
+    "response": "A class in Python is a blueprint for creating objects. Example: class Dog: def __init__(self, name): self.name = name"
+  },
+  {
+    "pattern": "what is a class in c++",
+    "response": "A class in C++ is a user-defined type that represents an object. Example: class Car { public: string model; };"
+  },
+  {
+    "pattern": "what is a class in java",
+    "response": "A class in Java is a template for objects. Example: class Animal { String name; }"
+  },
+  {
+    "pattern": "what is a loop in python",
+    "response": "A loop in Python repeats a block of code. Example: for i in range(5): print(i)"
+  },
+  {
+    "pattern": "what is a loop in c++",
+    "response": "A loop in C++ repeats code. Example: for(int i=0; i<5; i++) { cout << i; }"
+  },
+  {
+    "pattern": "what is a loop in java",
+    "response": "A loop in Java repeats code. Example: for(int i=0; i<5; i++) { System.out.println(i); }"
+  },
+  {
+    "pattern": "what is an array in python",
+    "response": "An array in Python is a collection of items stored at contiguous memory locations. Example: arr = [1, 2, 3]"
+  },
+  {
+    "pattern": "what is an array in c++",
+    "response": "An array in C++ is a collection of items of the same type stored at contiguous memory locations. Example: int arr[] = {1, 2, 3};"
+  },
+  {
+    "pattern": "what is an array in java",
+    "response": "An array in Java is a container object that holds a fixed number of values of a single type. Example: int[] arr = {1, 2, 3};"
+  },
+  {
+    "pattern": "what is a pointer in c++",
+    "response": "A pointer in C++ is a variable that stores the memory address of another variable. Example: int* p; // pointer to an int"
+  },
+  {
+    "pattern": "what is a reference in c++",
+    "response": "A reference in C++ is an alias for another variable. It is used to refer to the variable in a different way. Example: int& ref = originalVariable;"
+  },
+  {
+    "pattern": "what is encapsulation in java",
+    "response": "Encapsulation in Java is the mechanism of wrapping the data (variables) and code (methods) together as a single unit. It restricts direct access to some of the object's components, which is a means of preventing unintended interference and misuse of the methods and data. Example: class Encapsulated { private int data; void setData(int value) { data = value; } int getData() { return data; } };"
+  },
+  {
+    "pattern": "what is inheritance in java",
+    "response": "Inheritance in Java is a mechanism where a new class acquires the properties (methods and fields) of another class. The class which inherits is called the subclass (or child class), and the class from which it inherits is called the superclass (or parent class). Example: class Animal { void eat() { System.out.println('Eating...'); } } class Dog extends Animal { void bark() { System.out.println('Barking...'); } };"
+  },
+  {
+    "pattern": "what is polymorphism in java",
+    "response": "Polymorphism in Java is the ability of an object to take on many forms. It occurs when there is a hierarchy of classes and they are related to each other by inheritance. The most common use of polymorphism is when a parent class reference is used to refer to a child class object. Example: class Animal { void sound() { System.out.println('Animal sound'); } } class Cat extends Animal { void sound() { System.out.println('Meow'); } } class Dog extends Animal { void sound() { System.out.println('Bark'); } };"
+  },
+  {
+    "pattern": "what is abstraction in java",
+    "response": "Abstraction in Java is the concept of hiding the complex implementation details and showing only the essential features of the object. It can be achieved with either abstract classes or interfaces. Example: abstract class Animal { abstract void sound(); } class Cat extends Animal { void sound() { System.out.println('Meow'); } };"
+  },
+  {
+    "pattern": "what is an interface in java",
+    "response": "An interface in Java is a reference type, similar to a class, that can only contain constants, method signatures, default methods, static methods, and nested types. Interfaces cannot contain instance fields. The methods in interfaces are abstract by default. Example: interface Animal { void eat(); } class Dog implements Animal { public void eat() { System.out.println('Dog eats'); } };"
+  },
+  {
+    "pattern": "what is a lambda expression in java",
+    "response": "A lambda expression in Java is a short block of code which takes in parameters and returns a value. Lambda expressions are used to provide the implementation of functional interfaces. Example: (a, b) -> a + b"
+  },
+  {
+    "pattern": "what is a stream in java",
+    "response": "A stream in Java is a sequence of elements supporting sequential and parallel aggregate operations. Streams are used to process collections of objects. Example: list.stream().filter(x -> x > 10).collect(Collectors.toList());"
+  },
+  {
+    "pattern": "what is optional in java",
+    "response": "Optional in Java is a container object which may or may not contain a value. It is used to avoid null checks and NullPointerExceptions. Example: Optional<String> optional = Optional.of('Hello');"
+  },
+  {
+    "pattern": "what is a try-catch block in java",
+    "response": "A try-catch block in Java is used to handle exceptions. Code that might throw an exception is placed in the try block, and the code to handle the exception is placed in the catch block. Example: try { int a = 5 / 0; } catch (ArithmeticException e) { System.out.println('Cannot divide by zero'); }"
+  },
+  {
+    "pattern": "what is final keyword in java",
+    "response": "The final keyword in Java is used to declare constants, prevent method overriding, and inheritance. A final variable's value cannot be changed, a final method cannot be overridden, and a final class cannot be subclassed. Example: final int MAX_VALUE = 100;"
+  },
+  {
+    "pattern": "what is garbage collection in java",
+    "response": "Garbage collection in Java is the process by which the Java Virtual Machine (JVM) automatically removes objects that are no longer needed to free up memory. It helps in managing memory efficiently by reclaiming the memory used by objects that are no longer reachable in the program."
+  },
+  {
+    "pattern": "what is a constructor in java",
+    "response": "A constructor in Java is a special method that is called when an object is instantiated. It is used to initialize the object's state. A constructor has the same name as the class and does not have a return type. Example: class Dog { Dog() { System.out.println('Dog created'); } };"
+  },
+  {
+    "pattern": "what is a destructor in java",
+    "response": "A destructor in Java is a method that is called when an object is about to be destroyed. It is used to perform cleanup operations. A destructor has the same name as the class, preceded by a tilde (~). Example: class Dog { ~Dog() { System.out.println('Dog destroyed'); } }; Note: Java does not have destructors in the same sense as C++; it has a finalize() method that is called by the garbage collector."
+  },
+  {
+    "pattern": "what is method overloading in java",
+    "response": "Method overloading in Java is a feature that allows a class to have more than one method having the same name, if their parameter lists are different. It is used to perform similar operations in different ways. Example: class MathUtils { int add(int a, int b) { return a + b; } double add(double a, double b) { return a + b; } }; "
+  },
+  {
+    "pattern": "what is method overriding in java",
+    "response": "Method overriding in Java is a feature that allows a subclass to provide a specific implementation of a method that is already defined in its superclass. The overridden method in the subclass has the same name, return type, and parameters as the method in the superclass. Example: class Animal { void sound() { System.out.println('Animal sound'); } } class Dog extends Animal { void sound() { System.out.println('Bark'); } };"
+  },
+  {
+    "pattern": "what is the super keyword in java",
+    "response": "The super keyword in Java is used to refer to the immediate parent class object. It is used to access superclass methods and constructors. Example: class Animal { void sound() { System.out.println('Animal sound'); } } class Dog extends Animal { void sound() { super.sound(); System.out.println('Bark'); } };"
+  },
+  {
+    "pattern": "what is the this keyword in java",
+    "response": "The this keyword in Java is a reference variable that refers to the current object. It is used to resolve ambiguity between class attributes and parameters with the same name, and to pass the current object as a parameter to other methods. Example: class Dog { String name; Dog(String name) { this.name = name; } }; "
+  },
+  {
+    "pattern": "what is a package in java",
+    "response": "A package in Java is a namespace that organizes a set of related classes and interfaces. Conceptually similar to directories on your computer, packages help avoid name conflicts and can control access with protected and default access levels. Example: package com.example.myapp;"
+  },
+  {
+    "pattern": "what is an import in java",
+    "response": "An import in Java is a statement that allows the current class to access classes and interfaces from other packages. It is similar to including libraries in other programming languages. Example: import java.util.List;"
+  },
+  {
+    "pattern": "what is the java classpath",
+    "response": "The Java classpath is a parameter that tells the Java Virtual Machine (JVM) and Java compiler where to look for user-defined classes and packages in Java programs. It is similar to the PATH environment variable in other operating systems. Example: java -cp /path/to/classes com.example.Main"
+  },
+  {
+    "pattern": "what is the java runtime environment",
+    "response": "The Java Runtime Environment (JRE) is a set of software tools that provide the libraries, Java Virtual Machine (JVM), and other components to run applications written in the Java programming language. It is part of the Java Development Kit (JDK)."
+  },
+  {
+    "pattern": "what is the java virtual machine",
+    "response": "The Java Virtual Machine (JVM) is an abstract computing machine that enables a computer to run Java programs. It provides a runtime environment in which Java bytecode can be executed, converting bytecode into machine code for the host system."
+  },
+  {
+    "pattern": "what is the java development kit",
+    "response": "The Java Development Kit (JDK) is a software development kit used to develop Java applications. It includes the Java Runtime Environment (JRE), an interpreter/loader, a compiler, an archiver, a documentation generator, and other tools needed for Java development."
+  },
+  {
+    "pattern": "what is the difference between jdk, jre, and jvm",
+    "response": "JDK, JRE, and JVM are all parts of the Java programming environment. JDK (Java Development Kit) is a full-featured software development kit for Java, including JRE and development tools. JRE (Java Runtime Environment) provides libraries and JVM for running Java applications, and JVM (Java Virtual Machine) is the engine that executes Java bytecode."
+  },
+  {
+    "pattern": "what is jdbc in java",
+    "response": "JDBC (Java Database Connectivity) is an API in Java that enables Java applications to interact with databases. It provides methods to query and update data in a database, and is part of the Java Standard Edition platform."
+  },
+  {
+    "pattern": "what is a servlet in java",
+    "response": "A servlet in Java is a Java program that runs on a web server and handles client requests, usually for web applications. It extends the capabilities of a server by providing a way to generate dynamic content, such as HTML, XML, or JSON."
+  },
+  {
+    "pattern": "what is a jsp in java",
+    "response": "JSP (JavaServer Pages) is a technology in Java that helps in developing web pages with dynamic content. It allows embedding Java code in HTML pages using special JSP tags, which are then compiled into servlets by the web container."
+  },
+  {
+    "pattern": "what is spring framework",
+    "response": "Spring is a powerful framework for building Java applications. It provides comprehensive infrastructure support, making it easy to develop Java applications with features like dependency injection, transaction management, and aspect-oriented programming."
+  },
+  {
+    "pattern": "what is hibernate in java",
+    "response": "Hibernate is an object-relational mapping (ORM) framework for Java. It simplifies database interactions by mapping Java objects to database tables, and provides data query and retrieval facilities."
+  },
+  {
+    "pattern": "what is maven in java",
+    "response": "Maven is a build automation tool used primarily for Java projects. It simplifies the build process by providing a uniform build system, managing dependencies, and allowing the creation of project documentation."
+  },
+  {
+    "pattern": "what is gradle in java",
+    "response": "Gradle is a modern build automation tool for Java projects. It uses a flexible model and a domain-specific language (DSL) based on Groovy to define and execute build scripts."
+  },
+  {
+    "pattern": "what is a thread in java",
+    "response": "A thread in Java is a lightweight subprocess, a smallest unit of processing. It is a separate path of execution in a program, allowing concurrent execution of two or more parts of a program for maximum utilization of CPU."
+  },
+  {
+    "pattern": "what is a runnable in java",
+    "response": "A runnable in Java is a functional interface that represents a task that can be executed by a thread. It contains a single method, run(), which is called when the thread is started. Example: Runnable task = () -> { System.out.println('Task is running'); };"
+  },
+  {
+    "pattern": "what is synchronization in java",
+    "response": "Synchronization in Java is the capability to control the access of multiple threads to shared resources. It is used to prevent thread interference and consistency problems by ensuring that only one thread can access the resource at a time."
+  },
+  {
+    "pattern": "what is a deadlock in java",
+    "response": "A deadlock in Java is a situation where two or more threads are blocked forever, waiting for each other. It occurs when two or more threads hold a lock and wait for another lock held by another thread."
+  },
+  {
+    "pattern": "what is a semaphore in java",
+    "response": "A semaphore in Java is a synchronization aid that controls access by multiple threads to a common resource in a concurrent system. It maintains a set of permits, and a thread can access the resource only if it acquires a permit."
+  },
+  {
+    "pattern": "what is a mutex in java",
+    "response": "A mutex in Java is a mutual exclusion lock that is used to protect shared resources from being accessed by multiple threads simultaneously. It allows only one thread to access the resource at a time, preventing race conditions."
+  },
+  {
+    "pattern": "what is a barrier in java",
+    "response": "A barrier in Java is a synchronization mechanism that allows a set of threads to all wait for each other to reach a common point, called the barrier point. Once all threads have reached the barrier point, they can proceed with their execution."
+  },
+  {
+    "pattern": "what is a thread pool in java",
+    "response": "A thread pool in Java is a collection of pre-initialized reusable threads that stand ready to perform tasks. It helps in managing a pool of worker threads, reducing the overhead of creating and destroying threads for each task."
+  },
+  {
+    "pattern": "what is an executor in java",
+    "response": "An executor in Java is an object that executes submitted Runnable tasks. It provides a higher level replacement for the traditional way of managing threads, offering a simple interface for asynchronous task execution."
+  },
+  {
+    "pattern": "what is a future in java",
+    "response": "A future in Java is a placeholder for a result that will be available later. It represents the result of an asynchronous computation and provides methods to check if the computation is complete, to wait for its completion, and to retrieve the result."
+  },
+  {
+    "pattern": "what is a callable in java",
+    "response": "A callable in Java is a functional interface similar to Runnable, but it can return a result and throw a checked exception. It is used with ExecutorService to execute tasks that return values."
+  },
+  {
+    "pattern": "what is a completion stage in java",
+    "response": "A completion stage in Java is a stage of a computation that is executed after a CompletableFuture. It represents the result of an asynchronous computation and allows building a pipeline of actions to be executed upon its completion."
+  },
+  {
+    "pattern": "what is a fork/join framework in java",
+    "response": "The fork/join framework in Java is a framework for parallel programming. It helps in breaking a task into smaller subtasks, which can be executed in parallel, and then joining the results of the subtasks to produce the final result."
+  },
+  {
+    "pattern": "what is reactive programming in java",
+    "response": "Reactive programming in Java is a programming paradigm oriented around data flows and the propagation of change. It is used to build asynchronous, non-blocking, and event-driven applications."
+  },
+  {
+    "pattern": "what is a module in java",
+    "response": "A module in Java is a group of related packages and resources that are bundled together. It is used to modularize a Java application, making it easier to manage, develop, and deploy."
+  },
+  {
+    "pattern": "what is a service in java",
+    "response": "A service in Java is a well-defined, self-contained function that is available over a network. It is used to provide reusable business logic or functionality that can be accessed by different clients or applications."
+  },
+  {
+    "pattern": "what is a component in java",
+    "response": "A component in Java is a modular part of a system that encapsulates a set of related functions and data. It is used to build reusable and maintainable software systems."
+  },
+  {
+    "pattern": "what is a bean in java",
+    "response": "A bean in Java is a reusable software component that follows specific conventions, including having a no-argument constructor, providing setter and getter methods, and being serializable. Beans are used to encapsulate many objects into a single object (the bean), so they can be passed around as a single entity."
+  },
+  {
+    "pattern": "what is a context in java",
+    "response": "A context in Java is an environment in which a particular piece of code is executed. It provides information about the current state of the application, such as the current user, locale, and configuration settings."
+  },
+  {
+    "pattern": "what is a configuration in java",
+    "response": "A configuration in Java is a set of parameters or settings that determine how an application or component should behave. It is used to externalize the application's settings, making it easier to manage and change without modifying the code."
+  },
+  {
+    "pattern": "what is a profile in java",
+    "response": "A profile in Java is a set of configuration settings that define the environment in which an application runs. It is used to customize the application's behavior for different environments, such as development, testing, and production."
+  },
+  {
+    "pattern": "what is a property in java",
+    "response": "A property in Java is a key-value pair that represents a configuration setting. It is used to externalize the application's settings, making it easier to manage and change without modifying the code."
+  },
+  {
+    "pattern": "what is a placeholder in java",
+    "response": "A placeholder in Java is a special symbol or value that is used to reserve a space in a string or a data structure, which can be replaced with an actual value later. It is often used in templates and configuration files."
+  },
+  {
+    "pattern": "what is a template in java",
+    "response": "A template in Java is a pre-designed format or structure that can be used as a starting point for creating something new. It is used to define the layout, style, and content of a document or a component."
+  },
+  {
+    "pattern": "what is a form in java",
+    "response": "A form in Java is a graphical user interface (GUI) component that represents a set of input fields and controls, allowing users to enter and submit data. It is used to collect user input and display data in a structured manner."
+  },
+  {
+    "pattern": "what is a report in java",
+    "response": "A report in Java is a structured document that presents information in an organized format, typically generated from a database or other data sources. It is used to display and summarize data for analysis or decision-making."
+  },
+  {
+    "pattern": "what is a chart in java",
+    "response": "A chart in Java is a graphical representation of data, used to visualize trends, patterns, and relationships in the data. It is used to make the data more understandable and to facilitate analysis."
+  },
+  {
+    "pattern": "what is a graph in java",
+    "response": "A graph in Java is a data structure that consists of a set of nodes (or vertices) and edges that connect pairs of nodes. It is used to represent and manipulate relationships between objects."
+  },
+  {
+    "pattern": "what is a tree in java",
+    "response": "A tree in Java is a hierarchical data structure that consists of nodes, with each node containing a value and references to its child nodes. It is used to represent and manipulate hierarchical relationships."
+  },
+  {
+    "pattern": "what is a linked list in java",
+    "response": "A linked list in Java is a linear data structure where each element is a separate object, with a data part and an address part, pointing to the next element in the sequence. It is used to store a sequence of elements."
+  },
+  {
+    "pattern": "what is a stack in java",
+    "response": "A stack in Java is a linear data structure that follows the Last In First Out (LIFO) principle, where the last element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a queue in java",
+    "response": "A queue in Java is a linear data structure that follows the First In First Out (FIFO) principle, where the first element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a priority queue in java",
+    "response": "A priority queue in Java is a type of queue in which each element is associated with a priority, and elements are served based on their priority. It is used to manage a collection of elements with different priorities."
+  },
+  {
+    "pattern": "what is a hash table in java",
+    "response": "A hash table in Java is a data structure that implements an associative array, a structure that can map keys to values. It uses a hash function to compute an index into an array of buckets, from which the desired value can be found."
+  },
+  {
+    "pattern": "what is a hash map in java",
+    "response": "A hash map in Java is a part of Java's collection framework and provides the basic implementation of the Map interface. It stores data in key-value pairs and allows for fast retrieval based on the key."
+  },
+  {
+    "pattern": "what is a hash set in java",
+    "response": "A hash set in Java is a part of Java's collection framework and provides an implementation of the Set interface. It stores its elements in a hash table, which allows for fast access and modification."
+  },
+  {
+    "pattern": "what is a linked hash map in java",
+    "response": "A linked hash map in Java is a hash table and linked list implementation of the Map interface, with predictable iteration order. It maintains a doubly-linked list running through its entries."
+  },
+  {
+    "pattern": "what is a linked hash set in java",
+    "response": "A linked hash set in Java is a hash table and linked list implementation of the Set interface, with predictable iteration order. It maintains a doubly-linked list running through its entries."
+  },
+  {
+    "pattern": "what is a tree map in java",
+    "response": "A tree map in Java is a Red-Black tree based NavigableMap implementation. It is a part of Java's collection framework and provides a way to store key-value pairs in a sorted order."
+  },
+  {
+    "pattern": "what is a tree set in java",
+    "response": "A tree set in Java is a NavigableSet that uses a tree for storage. It is part of Java's collection framework and provides a way to store elements in a sorted order."
+  },
+  {
+    "pattern": "what is a vector in java",
+    "response": "A vector in Java is a dynamic array that can grow or shrink in size. It is part of Java's collection framework and is used to store a resizable array of objects."
+  },
+  {
+    "pattern": "what is an array list in java",
+    "response": "An array list in Java is a resizable array implementation of the List interface. It is part of Java's collection framework and is used to store a dynamically sized collection of elements."
+  },
+  {
+    "pattern": "what is a linked list in java",
+    "response": "A linked list in Java is a linear data structure where each element is a separate object, with a data part and an address part, pointing to the next element in the sequence. It is used to store a sequence of elements."
+  },
+  {
+    "pattern": "what is a stack in java",
+    "response": "A stack in Java is a linear data structure that follows the Last In First Out (LIFO) principle, where the last element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a queue in java",
+    "response": "A queue in Java is a linear data structure that follows the First In First Out (FIFO) principle, where the first element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a priority queue in java",
+    "response": "A priority queue in Java is a type of queue in which each element is associated with a priority, and elements are served based on their priority. It is used to manage a collection of elements with different priorities."
+  },
+  {
+    "pattern": "what is a hash table in java",
+    "response": "A hash table in Java is a data structure that implements an associative array, a structure that can map keys to values. It uses a hash function to compute an index into an array of buckets, from which the desired value can be found."
+  },
+  {
+    "pattern": "what is a hash map in java",
+    "response": "A hash map in Java is a part of Java's collection framework and provides the basic implementation of the Map interface. It stores data in key-value pairs and allows for fast retrieval based on the key."
+  },
+  {
+    "pattern": "what is a hash set in java",
+    "response": "A hash set in Java is a part of Java's collection framework and provides an implementation of the Set interface. It stores its elements in a hash table, which allows for fast access and modification."
+  },
+  {
+    "pattern": "what is a linked hash map in java",
+    "response": "A linked hash map in Java is a hash table and linked list implementation of the Map interface, with predictable iteration order. It maintains a doubly-linked list running through its entries."
+  },
+  {
+    "pattern": "what is a linked hash set in java",
+    "response": "A linked hash set in Java is a hash table and linked list implementation of the Set interface, with predictable iteration order. It maintains a doubly-linked list running through its entries."
+  },
+  {
+    "pattern": "what is a tree map in java",
+    "response": "A tree map in Java is a Red-Black tree based NavigableMap implementation. It is a part of Java's collection framework and provides a way to store key-value pairs in a sorted order."
+  },
+  {
+    "pattern": "what is a tree set in java",
+    "response": "A tree set in Java is a NavigableSet that uses a tree for storage. It is part of Java's collection framework and provides a way to store elements in a sorted order."
+  },
+  {
+    "pattern": "what is a vector in java",
+    "response": "A vector in Java is a dynamic array that can grow or shrink in size. It is part of Java's collection framework and is used to store a resizable array of objects."
+  },
+  {
+    "pattern": "what is an array list in java",
+    "response": "An array list in Java is a resizable array implementation of the List interface. It is part of Java's collection framework and is used to store a dynamically sized collection of elements."
+  },
+  {
+    "pattern": "what is a linked list in java",
+    "response": "A linked list in Java is a linear data structure where each element is a separate object, with a data part and an address part, pointing to the next element in the sequence. It is used to store a sequence of elements."
+  },
+  {
+    "pattern": "what is a stack in java",
+    "response": "A stack in Java is a linear data structure that follows the Last In First Out (LIFO) principle, where the last element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a queue in java",
+    "response": "A queue in Java is a linear data structure that follows the First In First Out (FIFO) principle, where the first element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a priority queue in java",
+    "response": "A priority queue in Java is a type of queue in which each element is associated with a priority, and elements are served based on their priority. It is used to manage a collection of elements with different priorities."
+  },
+  {
+    "pattern": "what is a hash table in java",
+    "response": "A hash table in Java is a data structure that implements an associative array, a structure that can map keys to values. It uses a hash function to compute an index into an array of buckets, from which the desired value can be found."
+  },
+  {
+    "pattern": "what is a hash map in java",
+    "response": "A hash map in Java is a part of Java's collection framework and provides the basic implementation of the Map interface. It stores data in key-value pairs and allows for fast retrieval based on the key."
+  },
+  {
+    "pattern": "what is a hash set in java",
+    "response": "A hash set in Java is a part of Java's collection framework and provides an implementation of the Set interface. It stores its elements in a hash table, which allows for fast access and modification."
+  },
+  {
+    "pattern": "what is a linked hash map in java",
+    "response": "A linked hash map in Java is a hash table and linked list implementation of the Map interface, with predictable iteration order. It maintains a doubly-linked list running through its entries."
+  },
+  {
+    "pattern": "what is a linked hash set in java",
+    "response": "A linked hash set in Java is a hash table and linked list implementation of the Set interface, with predictable iteration order. It maintains a doubly-linked list running through its entries."
+  },
+  {
+    "pattern": "what is a tree map in java",
+    "response": "A tree map in Java is a Red-Black tree based NavigableMap implementation. It is a part of Java's collection framework and provides a way to store key-value pairs in a sorted order."
+  },
+  {
+    "pattern": "what is a tree set in java",
+    "response": "A tree set in Java is a NavigableSet that uses a tree for storage. It is part of Java's collection framework and provides a way to store elements in a sorted order."
+  },
+  {
+    "pattern": "what is a vector in java",
+    "response": "A vector in Java is a dynamic array that can grow or shrink in size. It is part of Java's collection framework and is used to store a resizable array of objects."
+  },
+  {
+    "pattern": "what is an array list in java",
+    "response": "An array list in Java is a resizable array implementation of the List interface. It is part of Java's collection framework and is used to store a dynamically sized collection of elements."
+  },
+  {
+    "pattern": "what is a linked list in java",
+    "response": "A linked list in Java is a linear data structure where each element is a separate object, with a data part and an address part, pointing to the next element in the sequence. It is used to store a sequence of elements."
+  },
+  {
+    "pattern": "what is a stack in java",
+    "response": "A stack in Java is a linear data structure that follows the Last In First Out (LIFO) principle, where the last element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a queue in java",
+    "response": "A queue in Java is a linear data structure that follows the First In First Out (FIFO) principle, where the first element added is the first one to be removed. It is used to store a collection of elements."
+  },
+  {
+    "pattern": "what is a priority queue in java",
+    "response": "A priority queue in Java is a type of queue in which each element is associated with a priority, and elements are served based on their priority. It is used to manage a collection of elements with different priorities."
+  }
+]
